@@ -1,0 +1,75 @@
+body {
+  position: auto;
+  margin: auto;
+  background: url('../eggpics/6.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.faucet {
+  position: absolute;
+  margin: auto;
+  top:50%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  text-align: center;
+}
+
+.title {
+  position: absolute;
+  margin: auto;
+  top:40%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Arial";
+  font-weight: bold;
+}
+
+
+#input {
+    width: 75%;
+    height: 10%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border: 3px solid #000;
+    background-image: url('../eggpics/1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -300px;
+}
+
+#button {
+  background-color: #5887b7;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#button:hover {background-color: #3d658e}
+
+#button:active {
+  background-color: #335578;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#papi {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
