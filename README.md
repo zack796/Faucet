@@ -1,4 +1,4 @@
 # Faucet
 tut tutu tut little eggs
 
-[logo]: https://imgur.com/a/0WpKCIR "eggdra"
+![egg](https://i.imgur.com/FTWMULE.png "eggdra")
