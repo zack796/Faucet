@@ -50,7 +50,9 @@ class Conection{
 
 	function Filteraddress(){
 
-		$data = preg_match('/^TRTL([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})\s*$/',$this->formData);
+		//preg_match('/^Xtra([a-zA-Z0-9]{200}|[a-zA-Z0-9]{183})\s*$/'
+
+		$data = $this->formData;
 
 		return $data;
 	}

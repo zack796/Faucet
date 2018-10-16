@@ -1,0 +1,5 @@
+{
+    "require": {
+        "turtlecoin/turtlecoin-walletd-rpc-php": "^1.2"
+    }
+}

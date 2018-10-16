@@ -5,6 +5,7 @@ $form = $_POST;
 if(isset($form["address"])){
 
 	include("class.php");
+	include("api.php");
 
 
 	$conection = new Conection();
@@ -14,7 +15,7 @@ if(isset($form["address"])){
 	$conection->GetDataForm($form["address"]);
 
 	if($conection->Filteraddress() == 0){
-		die("error");
+		//die("error");
 	}
 
 
@@ -23,17 +24,24 @@ if(isset($form["address"])){
 		echo "direccion existe en db";
 
 		$deleted = $conection->DeleteAddress();
-		var_dump($deleted);
+		//Nolambo == if the address existed then reditect to the main home with error message
+		header("Location:index.php?error=Nolambo");
 
 	}else
 	{
 		echo $conection->InsertData();
 
-		echo "Put here the trtl api";
+		//Put here the trtl api
+
+		$reward = new EggdraApi();
+
+		$reward->SendRain($form["address"]);
+
+		$hash = $reward->SendRain($form["address"]);
 
 		echo $conection->CheckIfAddressExist();
 
-		header("Location:form.php");
+		header("Location:index.php?lambo=$hash");
 
 	}
 
