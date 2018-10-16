@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link href="assets/styles/main.css" rel="stylesheet"/>
-	<script src="assets/js/eggScript.js"></script>
+	<link href="styles/main.css" rel="stylesheet"/>
+	<script src="js/eggScript.js"></script>
 	<title>Form</title>
 </head>
 <body id="page">
