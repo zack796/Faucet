@@ -1,7 +1,6 @@
 # Faucet
-tut tutu tut little eggs
 
-![egg](https://i.imgur.com/FTWMULE.png "eggdra")
+TurtleCoin Faucet
 
 Api uses the turtlecoin php rpc wrapper https://github.com/turtlecoin/turtlecoin-walletd-rpc-php
 
